@@ -10,6 +10,7 @@ An example result:
 ### Option #1: Use gitartwork as a GitHub Action
 1. Ensure that under Settings > Actions > General > Workflow permissions, the "Read and write permissions" is set!
 2. Copy the workflow code into a `.github/workflows/gitartwork.yml` file in your repository.
+   
 
         name: gitartwork from a contribution graph
         on: 
